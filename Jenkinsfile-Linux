@@ -24,7 +24,7 @@ node {
     }    
     stage('Application_Dynamic_Security_Testing') {
       sh '/home/training/DevSecOps/ZAP_2.10.0/zap.sh -cmd -quickurl http://localhost:8080/petclinic -quickprogress -quickout /home/training/DevSecOps/zapreport/reportout.xml'
-                          archiveZap(failAllAlerts: 1, failHighAlerts: 0, failMediumAlerts: 0, failLowAlerts: 0, falsePositivesFilePath: "zapFalsePositives.json")
+                         
 
 
 
