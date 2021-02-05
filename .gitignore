@@ -16,3 +16,4 @@ _site/
 .gitsecret/keys/random_seed
 !*.secret
 sonarpass.txt
+sonarcred.txt
