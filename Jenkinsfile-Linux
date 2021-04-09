@@ -23,7 +23,7 @@ node {
       }
     }    
     stage('Application_Dependency_Check') {
-        sh '/home/training/DevSecOps/dependency-check/bin/dependency-check.sh --project sppetclinic --scan ./'
+        sh '/home/training/DevSecOps/dependency-check/bin/dependency-check.sh --project sppetclinic --scan ./ --disableYarnAudit'
         
     }
     stage('Application_Unit_Test') {        
