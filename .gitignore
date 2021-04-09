@@ -18,3 +18,4 @@ _site/
 sonarpass.txt
 sonarcred.txt
 dblogin.config
+mysqldb.config
